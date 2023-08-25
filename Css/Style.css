@@ -1,9 +1,9 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
-body{
-    
+body {
+
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #fafbfc;
@@ -23,7 +23,7 @@ main {
 
 }
 
-.card{
+.card {
     background-color: #fff;
     border: 2px solid #3ab3be;
     padding: 20px;
@@ -31,12 +31,12 @@ main {
     border-radius: 5px;
 }
 
-.lineInput{
+.lineInput {
     display: grid;
     margin-bottom: 10px;
 }
 
-input{
+input {
     padding: 10px;
     border: 1px solid #3ab3be;
     border-radius: 3px;
@@ -56,34 +56,43 @@ button {
 
 }
 
-button:hover{
+button:hover {
     background-color: rgb(4, 64, 70);
 
 }
 
 
-.content{
+.content {
     margin-top: 15px;
 
 }
 
-table{
+table {
     border-collapse: collapse;
     border: 1px solid #ccc;
     width: 100%;
 }
 
-table th{
+table th {
     background-color: #3ab3be;
+
+
+}
+
+
+table th,
+td {
+    padding: 1px 5px;
     text-align: left;
 
 }
+
 
 table td img {
     width: 20px;
 
 }
 
-.center{
+.center {
     text-align: center;
 }

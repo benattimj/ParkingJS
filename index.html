@@ -34,19 +34,19 @@
         <div class="card">
             <div class="lineInput">
                 <label>Nome</label>
-                <input type="text" id="produto" placeholder="Nome do hospede">
+                <input type="text" id="nome" placeholder="Nome do hospede">
             </div>
 
             <div class="lineInput">
                 <label>Vagas</label>
-                <input type="text" id="valor" placeholder="Numero da vaga">
+                <input type="text" id="vagas" placeholder="Numero da vaga">
             </div>
 
 
-            <button onclick="produto.adicionar()">Adicionar</button>
+            <button onclick="produto.salvar()">Salvar</button>
 
 
-            <button onclick="produto.excluir()">Deletar</button>
+            <button onclick="produto.cancelar()">Cancelar</button>
 
 
         </div>
@@ -56,19 +56,18 @@
                 <thead>
                     <th class="center">ID</th>
                     <th>Nome</th>
-                    <th>Vaga</th>
+                    <th class="center">Vaga</th>
                     <th class="center">Ações</th>
                 </thead>
-                <tbody>
-                    <tr> 
-                        <td class="center">1</td>
-                        <td>Murilo</td>
-                        <td class="center">424</td>
-                        <td class="center">
-                            <img src="img/botao-editar.png">
-                            <img src="img/bin.png"
-                        </td>
+                <tbody id="tbody">
+
+                    <tr>
+                        <td></td>
                     </tr>
+                   
+
+
+
                 </tbody>
             </table>
 
