@@ -25,7 +25,7 @@ main {
 
 .card{
     background-color: #fff;
-    border: 2px solid seagreen;
+    border: 2px solid #3ab3be;
     padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
@@ -38,7 +38,7 @@ main {
 
 input{
     padding: 10px;
-    border: 1px solid palegreen;
+    border: 1px solid #3ab3be;
     border-radius: 3px;
     outline: 0;
 }
