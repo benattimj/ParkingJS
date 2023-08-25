@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using JavaScript - Old methods</title>
+
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Parking Style</h1>
+    </header>
+
+    <main>
+
+
+
+        <div class="title">
+            <h2> Vagas</h2>
+            <span>Lista de vagas</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label>Nome</label>
+                <input type="text" id="produto" placeholder="Nome do hospede">
+            </div>
+
+            <div class="lineInput">
+                <label>Vagas</label>
+                <input type="text" id="valor" placeholder="Numero da vaga">
+            </div>
+
+
+            <button onclick="produto.adicionar()">Adicionar</button>
+
+
+            <button onclick="produto.excluir()">Deletar</button>
+
+
+        </div>
+
+        <div class="content">
+            <table border='1'>
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Nome</th>
+                    <th>Vaga</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td class="center">1</td>
+                        <td>Murilo</td>
+                        <td class="center">424</td>
+                        <td class="center">
+                            <img src="img/botao-editar.png">
+                            <img src="img/bin.png"
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
